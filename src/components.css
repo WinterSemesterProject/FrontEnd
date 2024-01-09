@@ -1,0 +1,39 @@
+.component_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_ul > li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.page_ul {
+    height: 13vh;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page_main {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.page_main > div {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.product_img {
+    margin-bottom: 70px;
+}

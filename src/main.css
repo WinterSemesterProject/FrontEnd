@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+ .main {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+ }
+
+ .main-bg {
+    background-image: url('./banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+  
+  }
+
+  .container {
+    height: 33vh;
+    padding-top: 53.1795px;
+    padding-bottom: 53.1795px;
+  }
+
+ p {
+  margin-top: 10px;
+  color: gray;
+}
+

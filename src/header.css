@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    color: black
+}
+
+.toggle_btn {
+    font-size: 30px;
+}
+
+.navbar {
+    height: 7vh;
+    color: black;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: solid gray 1px;
+}
+
+.logo {
+    margin-left: 230px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.search {
+    margin-right: 5px;
+}
+
+input {
+    outline: none;
+    border-width: 0 0 1px;
+    border-color: gray;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.sidebar_ul {
+    list-style: none;
+}
+
+.sidebar_ul > li {
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.offcanvas-header {
+    margin-bottom: 20px;
+}
+
+.offcanvas-title.h5 {
+    padding-top: 5px;
+    padding-left: 50px;
+    
+}
+
+.offcanvas.offcanvas-start.show {
+    width: 330px;
+}
